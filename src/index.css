@@ -1,0 +1,114 @@
+*{
+  margin: 0px;;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html body{
+height: 100%;
+width: 100%;
+}
+.parent{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 40px;
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.Card{
+height: 340px;
+width: 280px;
+padding: 18px;
+background-color: #fff;
+border-radius: 25px;
+display: flex;
+flex-direction:column ;
+justify-content: space-between;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.top  img{
+  height: 60px;
+  width: auto;
+  object-fit: cover;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 6px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: transparent;
+  gap: 3px;
+  color: #b1b1b1;
+  margin-bottom: 15px;
+
+
+}
+/* .Center{
+  background-color: red;
+} */
+.Center h3{
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 10px;
+
+}
+.Center h3 span{
+  font-size: 9px;
+  font-weight: 400;
+  color: #8b8b8b;
+  
+}
+.Center h2{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.Center .tag{
+  display: flex;
+  gap: 5px;
+  margin: 8px;
+}
+.Center .tag h4{
+  font-size: 11px;
+  background-color: #dadada;
+  color: #111;
+  padding: 3px 6px;
+  font-weight: 500;
+  border-radius: 4px;
+  gap: 2px;
+
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #b1b1b1;
+  padding-top: 15px;
+}
+.bottom button{
+  background-color: black;
+  color: white;
+  padding: 7px 9px ;
+  column-width: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.bottom h3{
+  font-size: 17px;
+
+}
+.bottom p{
+  font-size: 10px;
+  
+}
